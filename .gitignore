@@ -1,0 +1,16 @@
+# 忽略 build 目录
+build/
+
+# 忽略所有以 .o 结尾的文件
+*.o
+
+# 忽略所有以 .exe 结尾的文件（Windows可执行文件）
+*.exe
+
+# 忽略 Mac 系统生成的隐藏文件
+.DS_Store
+
+# 忽略编辑器或IDE的配置文件
+.vscode/
+.idea/
+*.sublime-workspace
